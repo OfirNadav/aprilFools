@@ -7,37 +7,31 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 5%;
-}
+  padding: 5%; }
+
 .img-box, .sponsor-box {
   flex: 1 1 auto;
   margin: 10px;
-  text-align: center;
-  img {
-    width: 100%;
-  }
-}
-.sponsor-box{
+  text-align: center; }
+  .img-box img, .sponsor-box img {
+    width: 100%; }
+
+.sponsor-box {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  width: 50%;
-  .cell {
+  width: 50%; }
+  .sponsor-box .cell {
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
-  }
-  .myLogo{
+    text-align: center; }
+  .sponsor-box .myLogo {
     margin: 0 auto;
-    max-width: 60%;
-  }
-}
+    max-width: 60%; }
 
 /* Smartphones (portrait) ----------- */
 @media (max-width: 480px) {
   body {
-    width: 100%;
-  }
-}
+    width: 100%; } }
