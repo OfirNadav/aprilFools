@@ -1,0 +1,26 @@
+{
+  "name": "aprilFools",
+  "version": "1.0.0",
+  "description": "aprilFools",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfirNadav/aprilFools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OfirNadav/aprilFools/issues"
+  },
+  "homepage": "https://github.com/OfirNadav/aprilFools#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-minify": "^2.1.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
